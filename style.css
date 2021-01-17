@@ -77,6 +77,13 @@ p {
     margin-bottom: 1em;
 }
 
+.icon {
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
 .banner {
     width: 80vw;
     margin: 0.5em auto;
@@ -121,5 +128,11 @@ p {
 
     .banner {
         width: 95vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .icon {
+        width: 20vw;
     }
 }
