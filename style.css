@@ -96,3 +96,10 @@ ul li {
         width: 70vw;
     }
 }
+
+@media (max-width: 380px) {
+    .top {
+        height: 150px;
+        flex-direction: column;
+    }
+}
