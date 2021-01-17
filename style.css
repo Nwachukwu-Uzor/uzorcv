@@ -129,6 +129,10 @@ p {
     .banner {
         width: 95vw;
     }
+
+    .icon {
+        width: 50vw;
+    }
 }
 
 @media (max-width: 550px) {
