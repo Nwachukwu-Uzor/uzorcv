@@ -14,9 +14,6 @@ const images = [
 ]
 
 
-
-console.log(images.length)
-
 const carouselImage = document.querySelector("#carousel-image");
 const carouselDescription = document.querySelector("#carousel-description")
 const arrowLeft = document.querySelector('.fa-arrow-left');
@@ -33,10 +30,8 @@ const moveLeft = () => {
     } else {
         current = images.length - 1
     }
-    console.log(current)
     carouselImage.src = images[current].src;
     carouselDescription.textContent = images[current].title
-    console.log(carouselImage.src, carouselDescription.textContent)
 }
 
 arrowLeft.addEventListener('click', () => moveLeft());
@@ -46,7 +41,6 @@ arrowRight.addEventListener('click', () => {
     } else {
         current = 0
     }
-    console.log(current)
     carouselImage.src = images[current].src;
     carouselDescription.textContent = images[current].title
 })
