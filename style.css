@@ -73,6 +73,10 @@ ul li {
     background-color: #fff;
 }
 
+p {
+    margin-bottom: 1em;
+}
+
 .banner {
     width: 80vw;
     margin: 0.5em auto;
@@ -104,10 +108,18 @@ ul li {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .top {
         height: 150px;
         flex-direction: column;
         align-items: center;
+    }
+
+    .container {
+        width: 95vw;
+    }
+
+    .banner {
+        width: 95vw;
     }
 }
